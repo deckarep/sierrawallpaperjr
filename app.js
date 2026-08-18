@@ -38,6 +38,8 @@
   // outer panel/wrap never resizes while paging through a game's shots --
   // only the image content itself slides. See applyPixelScale().
   var sessionScale = null;
+  var overlayBoxW = 0;
+  var overlayBoxH = 0;
 
   // ---------- data loading ----------
 
@@ -326,12 +328,21 @@
 
     if (sessionScale === null) {
       sessionScale = computeScale(nw, nh);
-      overlayImageWrap.style.width = (nw * sessionScale) + "px";
-      overlayImageWrap.style.height = (nh * sessionScale) + "px";
+      overlayBoxW = nw * sessionScale;
+      overlayBoxH = nh * sessionScale;
+      overlayImageWrap.style.width = overlayBoxW + "px";
+      overlayImageWrap.style.height = overlayBoxH + "px";
     }
 
-    img.style.width = (nw * sessionScale) + "px";
-    img.style.height = (nh * sessionScale) + "px";
+    // Recovered screenshots for the same game don't all share one native
+    // resolution (different capture sizes came through the archive), so
+    // fit each image within the session-locked box rather than sizing it
+    // to its own dimensions -- keeps the frame a constant size instead of
+    // jumping between shots. Letterboxed (centered via flexbox) when a
+    // shot's aspect ratio doesn't match the locking image's.
+    var fitScale = Math.min(overlayBoxW / nw, overlayBoxH / nh);
+    img.style.width = (nw * fitScale) + "px";
+    img.style.height = (nh * fitScale) + "px";
   }
 
   window.addEventListener("resize", function () {
