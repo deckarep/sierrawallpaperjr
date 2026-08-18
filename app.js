@@ -103,6 +103,32 @@
     return div.innerHTML;
   }
 
+  function buildTileTooltip(game, available) {
+    var tooltip = document.createElement("div");
+    tooltip.className = "tile-tooltip";
+
+    if (!available) {
+      tooltip.textContent = "No screenshots exist — consider contributing!";
+    } else if (game.pct == null) {
+      // no known total page count to compare against -- just show what we have
+      tooltip.textContent = game.shots.length + " screenshots";
+    } else if (game.pct >= 100) {
+      var doneSpan = document.createElement("span");
+      doneSpan.className = "tile-tooltip-pct";
+      doneSpan.textContent = "100%";
+      tooltip.appendChild(doneSpan);
+      tooltip.appendChild(document.createTextNode(" complete"));
+    } else {
+      var pctSpan = document.createElement("span");
+      pctSpan.className = "tile-tooltip-pct";
+      pctSpan.textContent = game.pct + "%";
+      tooltip.appendChild(pctSpan);
+      tooltip.appendChild(document.createTextNode(" incomplete"));
+    }
+
+    return tooltip;
+  }
+
   // ---------- grid ----------
 
   function renderGrid() {
@@ -134,6 +160,8 @@
       img.src = game.thumb || (game.shots[0] || "");
       img.alt = game.title;
       thumbWrap.appendChild(img);
+
+      tile.appendChild(buildTileTooltip(game, available));
 
       var caption = document.createElement("span");
       caption.className = "tile-caption";

@@ -78,6 +78,7 @@ main {
 }
 
 .tile {
+  position: relative;
   background: none;
   border: none;
   padding: 0;
@@ -135,6 +136,51 @@ main {
 .tile-pending .tile-year {
   color: var(--text-dim);
   opacity: 0.6;
+}
+
+/* ---------- tile tooltip ---------- */
+
+.tile-tooltip {
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 10px);
+  transform: translate(-50%, 4px);
+  z-index: 5;
+  min-width: max-content;
+  max-width: 220px;
+  padding: 7px 12px;
+  border-radius: 8px;
+  background: var(--bg-panel-2);
+  border: 1px solid var(--border);
+  box-shadow: 0 8px 20px var(--shadow);
+  color: var(--text);
+  font-size: 0.72rem;
+  line-height: 1.4;
+  text-align: center;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.15s ease, transform 0.15s ease;
+}
+
+.tile-tooltip::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 6px solid transparent;
+  border-top-color: var(--bg-panel-2);
+}
+
+.tile-tooltip .tile-tooltip-pct {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.tile:hover .tile-tooltip,
+.tile:focus-visible .tile-tooltip {
+  opacity: 1;
+  transform: translate(-50%, 0);
 }
 
 .tile-caption {

@@ -89,7 +89,9 @@
         "screenshots/kq1agi/0084_vi1999.png"
       ],
       "available": true,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 80,
+      "pct": 100
     },
     {
       "slug": "kq2",
@@ -200,7 +202,9 @@
         "screenshots/kq2/0100_vi2886.png"
       ],
       "available": true,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 100,
+      "pct": 100
     },
     {
       "slug": "kq3",
@@ -314,7 +318,9 @@
         "screenshots/kq3/0117_vi4032.png"
       ],
       "available": true,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 117,
+      "pct": 88
     },
     {
       "slug": "xmas86",
@@ -338,7 +344,9 @@
         "screenshots/xmas86/0014_vi9434.png"
       ],
       "available": true,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 14,
+      "pct": 93
     },
     {
       "slug": "sq1",
@@ -435,7 +443,9 @@
         "screenshots/sq1/0092_vi2786.png"
       ],
       "available": true,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 92,
+      "pct": 93
     },
     {
       "slug": "bc",
@@ -527,7 +537,9 @@
         "screenshots/bc/0081_vi3883.png"
       ],
       "available": true,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 81,
+      "pct": 100
     },
     {
       "slug": "lsl1",
@@ -537,7 +549,9 @@
       "thumb": "assets/thumbs/lsl1.png",
       "shots": [],
       "available": false,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 97,
+      "pct": 0
     },
     {
       "slug": "mgagi",
@@ -587,7 +601,9 @@
         "screenshots/mgagi/0063_vi4613.png"
       ],
       "available": true,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 63,
+      "pct": 62
     },
     {
       "slug": "pq1",
@@ -690,7 +706,9 @@
         "screenshots/pq1/0120_vi4515.png"
       ],
       "available": true,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 92,
+      "pct": 100
     },
     {
       "slug": "sq2",
@@ -806,7 +824,9 @@
         "screenshots/sq2/0105_vi4720.png"
       ],
       "available": true,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 105,
+      "pct": 100
     },
     {
       "slug": "gr",
@@ -934,7 +954,9 @@
         "screenshots/gr/0152_vi2152.png"
       ],
       "available": true,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 123,
+      "pct": 95
     },
     {
       "slug": "kq4",
@@ -980,7 +1002,9 @@
         "screenshots/kq4/0184_vi7775.png"
       ],
       "available": true,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 193,
+      "pct": 18
     },
     {
       "slug": "lsl2",
@@ -1114,7 +1138,9 @@
         "screenshots/lsl2/0123_vi3392.png"
       ],
       "available": true,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 123,
+      "pct": 100
     },
     {
       "slug": "mh1",
@@ -1335,7 +1361,9 @@
         "screenshots/mh1/0231_vi1121.png"
       ],
       "available": true,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 231,
+      "pct": 91
     },
     {
       "slug": "pq2",
@@ -1453,7 +1481,9 @@
         "screenshots/pq2/0138_vi2290.png"
       ],
       "available": true,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 137,
+      "pct": 78
     },
     {
       "slug": "xmas88",
@@ -1481,7 +1511,9 @@
         "screenshots/xmas88/0017_vi9451.png"
       ],
       "available": true,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 17,
+      "pct": 100
     },
     {
       "slug": "iceman",
@@ -1570,7 +1602,9 @@
         "screenshots/iceman/0144_vi5959.png"
       ],
       "available": true,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 118,
+      "pct": 66
     },
     {
       "slug": "lb1",
@@ -1742,7 +1776,9 @@
         "screenshots/lb1/0161.png"
       ],
       "available": true,
-      "source": "contributed"
+      "source": "contributed",
+      "total_pages": 161,
+      "pct": 100
     },
     {
       "slug": "lsl3",
@@ -1847,7 +1883,9 @@
         "screenshots/lsl3/0094_vi5025.png"
       ],
       "available": true,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 94,
+      "pct": 100
     },
     {
       "slug": "mh2",
@@ -1977,7 +2015,9 @@
         "screenshots/mh2/0343_vi5380.png"
       ],
       "available": true,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 141,
+      "pct": 84
     },
     {
       "slug": "sq3",
@@ -2182,7 +2222,9 @@
         "screenshots/sq3/0195_vi1481.png"
       ],
       "available": true,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 195,
+      "pct": 99
     },
     {
       "slug": "camelot",
@@ -2338,7 +2380,9 @@
         "screenshots/camelot/0145_vi7457.png"
       ],
       "available": true,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 145,
+      "pct": 100
     },
     {
       "slug": "kq1sci",
@@ -2435,7 +2479,9 @@
         "screenshots/kq1sci/0111_vi8062.png"
       ],
       "available": true,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 111,
+      "pct": 77
     },
     {
       "slug": "kq5",
@@ -2610,7 +2656,9 @@
         "screenshots/kq5/0209_vi5815.png"
       ],
       "available": true,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 167,
+      "pct": 98
     },
     {
       "slug": "qfg2",
@@ -2847,7 +2895,9 @@
         "screenshots/qfg2/0226_vi5606.png"
       ],
       "available": true,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 226,
+      "pct": 100
     },
     {
       "slug": "dragon",
@@ -3090,7 +3140,9 @@
         "screenshots/dragon/0237_vi9420.png"
       ],
       "available": true,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 237,
+      "pct": 98
     },
     {
       "slug": "drbrain1",
@@ -3188,7 +3240,9 @@
         "screenshots/drbrain1/0095_vi8409.png"
       ],
       "available": true,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 89,
+      "pct": 98
     },
     {
       "slug": "gob1",
@@ -3231,7 +3285,9 @@
         "screenshots/gob1/0034_vi4549.png"
       ],
       "available": true,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 32,
+      "pct": 100
     },
     {
       "slug": "lsl5",
@@ -3416,7 +3472,9 @@
         "screenshots/lsl5/0174_vi4507.png"
       ],
       "available": true,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 174,
+      "pct": 100
     },
     {
       "slug": "lsl1vga",
@@ -3527,7 +3585,9 @@
         "screenshots/lsl1vga/0108_vi6361.png"
       ],
       "available": true,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 100,
+      "pct": 100
     },
     {
       "slug": "tales",
@@ -3638,7 +3698,9 @@
         "screenshots/tales/0117_vi9183.png"
       ],
       "available": true,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 101,
+      "pct": 99
     },
     {
       "slug": "pq3",
@@ -3797,7 +3859,9 @@
         "screenshots/pq3/0194_vi6574.png"
       ],
       "available": true,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 163,
+      "pct": 91
     },
     {
       "slug": "sq1vga",
@@ -3942,7 +4006,9 @@
         "screenshots/sq1vga/0134_vi7591.png"
       ],
       "available": true,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 134,
+      "pct": 100
     },
     {
       "slug": "sq4cd",
@@ -4201,7 +4267,9 @@
         "screenshots/sq4cd/0252_vi8314.png"
       ],
       "available": true,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 252,
+      "pct": 98
     },
     {
       "slug": "wb",
@@ -4333,7 +4401,9 @@
         "screenshots/wb/0233_vi2523.png"
       ],
       "available": true,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 121,
+      "pct": 100
     },
     {
       "slug": "longbow",
@@ -4347,7 +4417,9 @@
         "screenshots/longbow/0009_vi1696.png"
       ],
       "available": true,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 194,
+      "pct": 2
     },
     {
       "slug": "eq1cd",
@@ -4444,7 +4516,9 @@
         "screenshots/eq1cd/0087_vi3120.png"
       ],
       "available": true,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 87,
+      "pct": 99
     },
     {
       "slug": "kq6cd",
@@ -4729,7 +4803,9 @@
         "screenshots/kq6cd/0274_vi6848.png"
       ],
       "available": true,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 274,
+      "pct": 100
     },
     {
       "slug": "lb2",
@@ -4824,7 +4900,9 @@
         "screenshots/lb2/0171_vi2694.png"
       ],
       "available": true,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 87,
+      "pct": 97
     },
     {
       "slug": "pq1vga",
@@ -4979,7 +5057,9 @@
         "screenshots/pq1vga/0150_vi8855.png"
       ],
       "available": true,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 145,
+      "pct": 99
     },
     {
       "slug": "qfg1vga",
@@ -5160,7 +5240,9 @@
         "screenshots/qfg1vga/0175_vi5037.png"
       ],
       "available": true,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 175,
+      "pct": 97
     },
     {
       "slug": "fpfpcd",
@@ -5312,7 +5394,9 @@
         "screenshots/fpfpcd/0163_vi4211.png"
       ],
       "available": true,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 163,
+      "pct": 87
     },
     {
       "slug": "gk1cd",
@@ -5342,7 +5426,9 @@
         "screenshots/gk1cd/0054_vi1535.png"
       ],
       "available": true,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 206,
+      "pct": 9
     },
     {
       "slug": "lsl6cd",
@@ -5519,7 +5605,9 @@
         "screenshots/lsl6cd/0166_vi7950.png"
       ],
       "available": true,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 166,
+      "pct": 100
     },
     {
       "slug": "eq2",
@@ -5684,7 +5772,9 @@
         "screenshots/eq2/0159_vi7311.png"
       ],
       "available": true,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 159,
+      "pct": 97
     },
     {
       "slug": "pepper",
@@ -5694,7 +5784,9 @@
       "thumb": "assets/thumbs/pepper.png",
       "shots": [],
       "available": false,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 72,
+      "pct": 0
     },
     {
       "slug": "pq4",
@@ -5831,7 +5923,9 @@
         "screenshots/pq4/0165_vi1286.png"
       ],
       "available": true,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 165,
+      "pct": 76
     },
     {
       "slug": "qfg4cd",
@@ -6102,7 +6196,9 @@
         "screenshots/qfg4cd/0260_vi3898.png"
       ],
       "available": true,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 260,
+      "pct": 100
     },
     {
       "slug": "sq5",
@@ -6406,7 +6502,9 @@
         "screenshots/sq5/0295_vi8705.png"
       ],
       "available": true,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 295,
+      "pct": 99
     },
     {
       "slug": "sq6",
@@ -6620,7 +6718,9 @@
         "screenshots/sq6/0211_vi9066.png"
       ],
       "available": true,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 211,
+      "pct": 96
     },
     {
       "slug": "lsl7",
@@ -6901,7 +7001,9 @@
         "screenshots/lsl7/0270_vi6231.png"
       ],
       "available": true,
-      "source": "archive"
+      "source": "archive",
+      "total_pages": 270,
+      "pct": 100
     }
   ]
 }
