@@ -242,6 +242,7 @@ main {
 .overlay-nav {
   position: absolute;
   top: 50%;
+  z-index: 2;
   transform: translateY(-50%);
   background: rgba(255, 255, 255, 0.06);
   border: 1px solid var(--border);
