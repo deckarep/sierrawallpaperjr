@@ -292,6 +292,47 @@ main {
   color: var(--accent-dim);
 }
 
+/* ---------- contributions ---------- */
+
+.contributions {
+  max-width: 780px;
+  margin: 8px auto 40px;
+  padding: 0 24px;
+  text-align: center;
+}
+
+.contributions h2 {
+  margin: 0 0 6px;
+  font-size: 1rem;
+  color: var(--accent);
+  letter-spacing: 0.04em;
+}
+
+.contributions-intro {
+  margin: 0 0 16px;
+  color: var(--text-dim);
+  font-size: 0.78rem;
+  line-height: 1.6;
+}
+
+.contributions-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.contributions-list li {
+  color: var(--text-dim);
+  font-size: 0.78rem;
+}
+
+.contributions-list strong {
+  color: var(--text);
+}
+
 /* ---------- footer ---------- */
 
 .site-footer {

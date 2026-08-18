@@ -14,6 +14,8 @@
   var btnNext = document.getElementById("btn-next");
   var gridEl = document.getElementById("grid");
   var emptyMsg = document.getElementById("empty-msg");
+  var contributionsEl = document.getElementById("contributions");
+  var contributionsList = document.getElementById("contributions-list");
 
   var overlayImageWrap = document.querySelector(".overlay-image-wrap");
 
@@ -50,6 +52,7 @@
       games = data.games || [];
       games.forEach(function (g) { gamesBySlug[g.slug] = g; });
       renderGrid();
+      renderContributions();
       handleInitialUrl();
     })
     .catch(function (err) {
@@ -57,6 +60,48 @@
       emptyMsg.classList.remove("hidden");
       emptyMsg.textContent = "Could not load manifest.json.";
     });
+
+  // Best-effort: absence of contributions.json (or a fetch failure) just
+  // means the section stays hidden -- not a hard dependency of the site.
+  function renderContributions() {
+    fetch("contributions.json")
+      .then(function (r) { return r.ok ? r.json() : []; })
+      .then(function (entries) {
+        entries = (entries || []).filter(function (e) { return gamesBySlug[e.slug]; });
+        if (!entries.length) return;
+
+        entries
+          .slice()
+          .sort(function (a, b) { return (b.date || "").localeCompare(a.date || ""); })
+          .forEach(function (e) {
+            var game = gamesBySlug[e.slug];
+            var li = document.createElement("li");
+            var dateStr = formatContribDate(e.date);
+            li.innerHTML =
+              "<strong>" + escapeHtml(game.title) + "</strong> &mdash; screenshots contributed by " +
+              escapeHtml(e.contributor) +
+              (e.platform ? " on " + escapeHtml(e.platform) : "") +
+              (dateStr ? " (" + dateStr + ")" : "");
+            contributionsList.appendChild(li);
+          });
+
+        contributionsEl.classList.remove("hidden");
+      })
+      .catch(function () { /* section just stays hidden */ });
+  }
+
+  function formatContribDate(dateStr) {
+    if (!dateStr) return "";
+    var d = new Date(dateStr + "T00:00:00");
+    if (isNaN(d.getTime())) return "";
+    return d.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" });
+  }
+
+  function escapeHtml(s) {
+    var div = document.createElement("div");
+    div.textContent = String(s == null ? "" : s);
+    return div.innerHTML;
+  }
 
   // ---------- grid ----------
 
