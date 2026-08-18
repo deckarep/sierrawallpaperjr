@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sierra Screenshot Archive</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <img class="sierra-logo" src="assets/sierra_logo.svg" alt="Sierra On-Line" />
+  <p class="site-subtitle">Screenshot Archive &mdash; a fan preservation project</p>
+</header>
+
+<main>
+  <div id="grid" class="grid" aria-label="Game list"></div>
+  <p id="empty-msg" class="empty-msg hidden">
+    No games loaded yet &mdash; run <code>build_manifest.py</code> once some screenshots have downloaded.
+  </p>
+</main>
+
+<div id="overlay" class="overlay hidden" role="dialog" aria-modal="true">
+  <div class="overlay-backdrop" data-close></div>
+  <div class="overlay-panel" id="overlay-panel">
+    <button class="overlay-close" data-close aria-label="Close">&times;</button>
+    <button class="overlay-nav overlay-prev" id="btn-prev" aria-label="Previous screenshot">&#8249;</button>
+    <div class="overlay-image-wrap">
+      <img id="overlay-image" class="overlay-image" alt="" draggable="false" />
+    </div>
+    <button class="overlay-nav overlay-next" id="btn-next" aria-label="Next screenshot">&#8250;</button>
+    <div class="overlay-footer">
+      <span id="overlay-title" class="overlay-title"></span>
+      <span id="overlay-count" class="overlay-count"></span>
+    </div>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <p>
+    Screenshots and game content &copy; their original copyright holders &mdash;
+    Sierra On-Line properties are owned by Activision Blizzard, a Microsoft company;
+    the Leisure&nbsp;Suit&nbsp;Larry trademark is separately held by Codemasters
+    (an Electronic&nbsp;Arts studio). All trademarks belong to their respective owners.
+    This is an unofficial, non-commercial fan project, not affiliated with or endorsed
+    by any of the above.
+  </p>
+  <p>
+    In memory of and with thanks to
+    <strong>SierraWallpaper.com</strong> (Clint Smith &amp; Brandon Klassen, 2012&ndash;2021),
+    whose original screenshot galleries inspired this archive &mdash; recovered from the
+    Internet Archive Wayback Machine after the original site went offline.
+  </p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
