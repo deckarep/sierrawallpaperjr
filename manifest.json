@@ -88,7 +88,8 @@
         "screenshots/kq1agi/0083_vi1998.png",
         "screenshots/kq1agi/0084_vi1999.png"
       ],
-      "available": true
+      "available": true,
+      "source": "archive"
     },
     {
       "slug": "kq2",
@@ -198,7 +199,8 @@
         "screenshots/kq2/0099_vi2885.png",
         "screenshots/kq2/0100_vi2886.png"
       ],
-      "available": true
+      "available": true,
+      "source": "archive"
     },
     {
       "slug": "kq3",
@@ -311,7 +313,8 @@
         "screenshots/kq3/0116_vi4031.png",
         "screenshots/kq3/0117_vi4032.png"
       ],
-      "available": true
+      "available": true,
+      "source": "archive"
     },
     {
       "slug": "xmas86",
@@ -334,7 +337,8 @@
         "screenshots/xmas86/0013_vi9433.png",
         "screenshots/xmas86/0014_vi9434.png"
       ],
-      "available": true
+      "available": true,
+      "source": "archive"
     },
     {
       "slug": "sq1",
@@ -430,7 +434,8 @@
         "screenshots/sq1/0091_vi2785.png",
         "screenshots/sq1/0092_vi2786.png"
       ],
-      "available": true
+      "available": true,
+      "source": "archive"
     },
     {
       "slug": "bc",
@@ -521,7 +526,8 @@
         "screenshots/bc/0080_vi3882.png",
         "screenshots/bc/0081_vi3883.png"
       ],
-      "available": true
+      "available": true,
+      "source": "archive"
     },
     {
       "slug": "lsl1",
@@ -530,7 +536,8 @@
       "year": 1987,
       "thumb": "assets/thumbs/lsl1.png",
       "shots": [],
-      "available": false
+      "available": false,
+      "source": "archive"
     },
     {
       "slug": "mgagi",
@@ -579,7 +586,8 @@
         "screenshots/mgagi/0062_vi4612.png",
         "screenshots/mgagi/0063_vi4613.png"
       ],
-      "available": true
+      "available": true,
+      "source": "archive"
     },
     {
       "slug": "pq1",
@@ -681,7 +689,8 @@
         "screenshots/pq1/0119_vi4514.png",
         "screenshots/pq1/0120_vi4515.png"
       ],
-      "available": true
+      "available": true,
+      "source": "archive"
     },
     {
       "slug": "sq2",
@@ -796,7 +805,8 @@
         "screenshots/sq2/0104_vi4719.png",
         "screenshots/sq2/0105_vi4720.png"
       ],
-      "available": true
+      "available": true,
+      "source": "archive"
     },
     {
       "slug": "gr",
@@ -923,7 +933,8 @@
         "screenshots/gr/0151_vi2151.png",
         "screenshots/gr/0152_vi2152.png"
       ],
-      "available": true
+      "available": true,
+      "source": "archive"
     },
     {
       "slug": "kq4",
@@ -968,7 +979,8 @@
         "screenshots/kq4/0179_vi7770.png",
         "screenshots/kq4/0184_vi7775.png"
       ],
-      "available": true
+      "available": true,
+      "source": "archive"
     },
     {
       "slug": "lsl2",
@@ -1101,7 +1113,8 @@
         "screenshots/lsl2/0122_vi3391.png",
         "screenshots/lsl2/0123_vi3392.png"
       ],
-      "available": true
+      "available": true,
+      "source": "archive"
     },
     {
       "slug": "mh1",
@@ -1321,7 +1334,8 @@
         "screenshots/mh1/0230_vi1120.png",
         "screenshots/mh1/0231_vi1121.png"
       ],
-      "available": true
+      "available": true,
+      "source": "archive"
     },
     {
       "slug": "pq2",
@@ -1438,7 +1452,8 @@
         "screenshots/pq2/0136_vi2288.png",
         "screenshots/pq2/0138_vi2290.png"
       ],
-      "available": true
+      "available": true,
+      "source": "archive"
     },
     {
       "slug": "xmas88",
@@ -1465,7 +1480,8 @@
         "screenshots/xmas88/0016_vi9450.png",
         "screenshots/xmas88/0017_vi9451.png"
       ],
-      "available": true
+      "available": true,
+      "source": "archive"
     },
     {
       "slug": "iceman",
@@ -1553,7 +1569,8 @@
         "screenshots/iceman/0142_vi5957.png",
         "screenshots/iceman/0144_vi5959.png"
       ],
-      "available": true
+      "available": true,
+      "source": "archive"
     },
     {
       "slug": "lb1",
@@ -1561,8 +1578,171 @@
       "short_title": "Laura Bow 1",
       "year": 1989,
       "thumb": "assets/thumbs/lb1.png",
-      "shots": [],
-      "available": false
+      "shots": [
+        "screenshots/lb1/0001.png",
+        "screenshots/lb1/0002.png",
+        "screenshots/lb1/0003.png",
+        "screenshots/lb1/0004.png",
+        "screenshots/lb1/0005.png",
+        "screenshots/lb1/0006.png",
+        "screenshots/lb1/0007.png",
+        "screenshots/lb1/0008.png",
+        "screenshots/lb1/0009.png",
+        "screenshots/lb1/0010.png",
+        "screenshots/lb1/0011.png",
+        "screenshots/lb1/0012.png",
+        "screenshots/lb1/0013.png",
+        "screenshots/lb1/0014.png",
+        "screenshots/lb1/0015.png",
+        "screenshots/lb1/0016.png",
+        "screenshots/lb1/0017.png",
+        "screenshots/lb1/0018.png",
+        "screenshots/lb1/0019.png",
+        "screenshots/lb1/0020.png",
+        "screenshots/lb1/0021.png",
+        "screenshots/lb1/0022.png",
+        "screenshots/lb1/0023.png",
+        "screenshots/lb1/0024.png",
+        "screenshots/lb1/0025.png",
+        "screenshots/lb1/0026.png",
+        "screenshots/lb1/0027.png",
+        "screenshots/lb1/0028.png",
+        "screenshots/lb1/0029.png",
+        "screenshots/lb1/0030.png",
+        "screenshots/lb1/0031.png",
+        "screenshots/lb1/0032.png",
+        "screenshots/lb1/0033.png",
+        "screenshots/lb1/0034.png",
+        "screenshots/lb1/0035.png",
+        "screenshots/lb1/0036.png",
+        "screenshots/lb1/0037.png",
+        "screenshots/lb1/0038.png",
+        "screenshots/lb1/0039.png",
+        "screenshots/lb1/0040.png",
+        "screenshots/lb1/0041.png",
+        "screenshots/lb1/0042.png",
+        "screenshots/lb1/0043.png",
+        "screenshots/lb1/0044.png",
+        "screenshots/lb1/0045.png",
+        "screenshots/lb1/0046.png",
+        "screenshots/lb1/0047.png",
+        "screenshots/lb1/0048.png",
+        "screenshots/lb1/0049.png",
+        "screenshots/lb1/0050.png",
+        "screenshots/lb1/0051.png",
+        "screenshots/lb1/0052.png",
+        "screenshots/lb1/0053.png",
+        "screenshots/lb1/0054.png",
+        "screenshots/lb1/0055.png",
+        "screenshots/lb1/0056.png",
+        "screenshots/lb1/0057.png",
+        "screenshots/lb1/0058.png",
+        "screenshots/lb1/0059.png",
+        "screenshots/lb1/0060.png",
+        "screenshots/lb1/0061.png",
+        "screenshots/lb1/0062.png",
+        "screenshots/lb1/0063.png",
+        "screenshots/lb1/0064.png",
+        "screenshots/lb1/0065.png",
+        "screenshots/lb1/0066.png",
+        "screenshots/lb1/0067.png",
+        "screenshots/lb1/0068.png",
+        "screenshots/lb1/0069.png",
+        "screenshots/lb1/0070.png",
+        "screenshots/lb1/0071.png",
+        "screenshots/lb1/0072.png",
+        "screenshots/lb1/0073.png",
+        "screenshots/lb1/0074.png",
+        "screenshots/lb1/0075.png",
+        "screenshots/lb1/0076.png",
+        "screenshots/lb1/0077.png",
+        "screenshots/lb1/0078.png",
+        "screenshots/lb1/0079.png",
+        "screenshots/lb1/0080.png",
+        "screenshots/lb1/0081.png",
+        "screenshots/lb1/0082.png",
+        "screenshots/lb1/0083.png",
+        "screenshots/lb1/0084.png",
+        "screenshots/lb1/0085.png",
+        "screenshots/lb1/0086.png",
+        "screenshots/lb1/0087.png",
+        "screenshots/lb1/0088.png",
+        "screenshots/lb1/0089.png",
+        "screenshots/lb1/0090.png",
+        "screenshots/lb1/0091.png",
+        "screenshots/lb1/0092.png",
+        "screenshots/lb1/0093.png",
+        "screenshots/lb1/0094.png",
+        "screenshots/lb1/0095.png",
+        "screenshots/lb1/0096.png",
+        "screenshots/lb1/0097.png",
+        "screenshots/lb1/0098.png",
+        "screenshots/lb1/0099.png",
+        "screenshots/lb1/0100.png",
+        "screenshots/lb1/0101.png",
+        "screenshots/lb1/0102.png",
+        "screenshots/lb1/0103.png",
+        "screenshots/lb1/0104.png",
+        "screenshots/lb1/0105.png",
+        "screenshots/lb1/0106.png",
+        "screenshots/lb1/0107.png",
+        "screenshots/lb1/0108.png",
+        "screenshots/lb1/0109.png",
+        "screenshots/lb1/0110.png",
+        "screenshots/lb1/0111.png",
+        "screenshots/lb1/0112.png",
+        "screenshots/lb1/0113.png",
+        "screenshots/lb1/0114.png",
+        "screenshots/lb1/0115.png",
+        "screenshots/lb1/0116.png",
+        "screenshots/lb1/0117.png",
+        "screenshots/lb1/0118.png",
+        "screenshots/lb1/0119.png",
+        "screenshots/lb1/0120.png",
+        "screenshots/lb1/0121.png",
+        "screenshots/lb1/0122.png",
+        "screenshots/lb1/0123.png",
+        "screenshots/lb1/0124.png",
+        "screenshots/lb1/0125.png",
+        "screenshots/lb1/0126.png",
+        "screenshots/lb1/0127.png",
+        "screenshots/lb1/0128.png",
+        "screenshots/lb1/0129.png",
+        "screenshots/lb1/0130.png",
+        "screenshots/lb1/0131.png",
+        "screenshots/lb1/0132.png",
+        "screenshots/lb1/0133.png",
+        "screenshots/lb1/0134.png",
+        "screenshots/lb1/0135.png",
+        "screenshots/lb1/0136.png",
+        "screenshots/lb1/0137.png",
+        "screenshots/lb1/0138.png",
+        "screenshots/lb1/0139.png",
+        "screenshots/lb1/0140.png",
+        "screenshots/lb1/0141.png",
+        "screenshots/lb1/0142.png",
+        "screenshots/lb1/0143.png",
+        "screenshots/lb1/0144.png",
+        "screenshots/lb1/0145.png",
+        "screenshots/lb1/0146.png",
+        "screenshots/lb1/0147.png",
+        "screenshots/lb1/0148.png",
+        "screenshots/lb1/0149.png",
+        "screenshots/lb1/0150.png",
+        "screenshots/lb1/0151.png",
+        "screenshots/lb1/0152.png",
+        "screenshots/lb1/0153.png",
+        "screenshots/lb1/0154.png",
+        "screenshots/lb1/0155.png",
+        "screenshots/lb1/0156.png",
+        "screenshots/lb1/0157.png",
+        "screenshots/lb1/0158.png",
+        "screenshots/lb1/0159.png",
+        "screenshots/lb1/0160.png",
+        "screenshots/lb1/0161.png"
+      ],
+      "available": true,
+      "source": "contributed"
     },
     {
       "slug": "lsl3",
@@ -1666,7 +1846,8 @@
         "screenshots/lsl3/0093_vi5024.png",
         "screenshots/lsl3/0094_vi5025.png"
       ],
-      "available": true
+      "available": true,
+      "source": "archive"
     },
     {
       "slug": "mh2",
@@ -1795,7 +1976,8 @@
         "screenshots/mh2/0342_vi5379.png",
         "screenshots/mh2/0343_vi5380.png"
       ],
-      "available": true
+      "available": true,
+      "source": "archive"
     },
     {
       "slug": "sq3",
@@ -1999,7 +2181,8 @@
         "screenshots/sq3/0194_vi1480.png",
         "screenshots/sq3/0195_vi1481.png"
       ],
-      "available": true
+      "available": true,
+      "source": "archive"
     },
     {
       "slug": "camelot",
@@ -2154,7 +2337,8 @@
         "screenshots/camelot/0144_vi7456.png",
         "screenshots/camelot/0145_vi7457.png"
       ],
-      "available": true
+      "available": true,
+      "source": "archive"
     },
     {
       "slug": "kq1sci",
@@ -2250,7 +2434,8 @@
         "screenshots/kq1sci/0109_vi8060.png",
         "screenshots/kq1sci/0111_vi8062.png"
       ],
-      "available": true
+      "available": true,
+      "source": "archive"
     },
     {
       "slug": "kq5",
@@ -2424,7 +2609,8 @@
         "screenshots/kq5/0208_vi5814.png",
         "screenshots/kq5/0209_vi5815.png"
       ],
-      "available": true
+      "available": true,
+      "source": "archive"
     },
     {
       "slug": "qfg2",
@@ -2660,7 +2846,8 @@
         "screenshots/qfg2/0225_vi5605.png",
         "screenshots/qfg2/0226_vi5606.png"
       ],
-      "available": true
+      "available": true,
+      "source": "archive"
     },
     {
       "slug": "dragon",
@@ -2902,7 +3089,8 @@
         "screenshots/dragon/0236_vi9419.png",
         "screenshots/dragon/0237_vi9420.png"
       ],
-      "available": true
+      "available": true,
+      "source": "archive"
     },
     {
       "slug": "drbrain1",
@@ -2999,7 +3187,8 @@
         "screenshots/drbrain1/0094_vi8408.png",
         "screenshots/drbrain1/0095_vi8409.png"
       ],
-      "available": true
+      "available": true,
+      "source": "archive"
     },
     {
       "slug": "gob1",
@@ -3041,7 +3230,8 @@
         "screenshots/gob1/0032_vi4547.png",
         "screenshots/gob1/0034_vi4549.png"
       ],
-      "available": true
+      "available": true,
+      "source": "archive"
     },
     {
       "slug": "lsl5",
@@ -3225,7 +3415,8 @@
         "screenshots/lsl5/0173_vi4506.png",
         "screenshots/lsl5/0174_vi4507.png"
       ],
-      "available": true
+      "available": true,
+      "source": "archive"
     },
     {
       "slug": "lsl1vga",
@@ -3335,7 +3526,8 @@
         "screenshots/lsl1vga/0106_vi6379.png",
         "screenshots/lsl1vga/0108_vi6361.png"
       ],
-      "available": true
+      "available": true,
+      "source": "archive"
     },
     {
       "slug": "tales",
@@ -3445,7 +3637,8 @@
         "screenshots/tales/0116_vi9182.png",
         "screenshots/tales/0117_vi9183.png"
       ],
-      "available": true
+      "available": true,
+      "source": "archive"
     },
     {
       "slug": "pq3",
@@ -3603,7 +3796,8 @@
         "screenshots/pq3/0192_vi6572.png",
         "screenshots/pq3/0194_vi6574.png"
       ],
-      "available": true
+      "available": true,
+      "source": "archive"
     },
     {
       "slug": "sq1vga",
@@ -3747,7 +3941,8 @@
         "screenshots/sq1vga/0133_vi7590.png",
         "screenshots/sq1vga/0134_vi7591.png"
       ],
-      "available": true
+      "available": true,
+      "source": "archive"
     },
     {
       "slug": "sq4cd",
@@ -4005,7 +4200,8 @@
         "screenshots/sq4cd/0251_vi8313.png",
         "screenshots/sq4cd/0252_vi8314.png"
       ],
-      "available": true
+      "available": true,
+      "source": "archive"
     },
     {
       "slug": "wb",
@@ -4136,7 +4332,8 @@
         "screenshots/wb/0231_vi2521.png",
         "screenshots/wb/0233_vi2523.png"
       ],
-      "available": true
+      "available": true,
+      "source": "archive"
     },
     {
       "slug": "longbow",
@@ -4149,7 +4346,8 @@
         "screenshots/longbow/0007_vi1694.png",
         "screenshots/longbow/0009_vi1696.png"
       ],
-      "available": true
+      "available": true,
+      "source": "archive"
     },
     {
       "slug": "eq1cd",
@@ -4245,7 +4443,8 @@
         "screenshots/eq1cd/0086_vi3119.png",
         "screenshots/eq1cd/0087_vi3120.png"
       ],
-      "available": true
+      "available": true,
+      "source": "archive"
     },
     {
       "slug": "kq6cd",
@@ -4529,7 +4728,8 @@
         "screenshots/kq6cd/0273_vi6847.png",
         "screenshots/kq6cd/0274_vi6848.png"
       ],
-      "available": true
+      "available": true,
+      "source": "archive"
     },
     {
       "slug": "lb2",
@@ -4623,7 +4823,8 @@
         "screenshots/lb2/0170_vi2693.png",
         "screenshots/lb2/0171_vi2694.png"
       ],
-      "available": true
+      "available": true,
+      "source": "archive"
     },
     {
       "slug": "pq1vga",
@@ -4777,7 +4978,8 @@
         "screenshots/pq1vga/0149_vi8854.png",
         "screenshots/pq1vga/0150_vi8855.png"
       ],
-      "available": true
+      "available": true,
+      "source": "archive"
     },
     {
       "slug": "qfg1vga",
@@ -4957,7 +5159,8 @@
         "screenshots/qfg1vga/0174_vi5036.png",
         "screenshots/qfg1vga/0175_vi5037.png"
       ],
-      "available": true
+      "available": true,
+      "source": "archive"
     },
     {
       "slug": "fpfpcd",
@@ -5108,7 +5311,8 @@
         "screenshots/fpfpcd/0162_vi4210.png",
         "screenshots/fpfpcd/0163_vi4211.png"
       ],
-      "available": true
+      "available": true,
+      "source": "archive"
     },
     {
       "slug": "gk1cd",
@@ -5137,7 +5341,8 @@
         "screenshots/gk1cd/0053_vi1534.png",
         "screenshots/gk1cd/0054_vi1535.png"
       ],
-      "available": true
+      "available": true,
+      "source": "archive"
     },
     {
       "slug": "lsl6cd",
@@ -5313,7 +5518,8 @@
         "screenshots/lsl6cd/0165_vi7949.png",
         "screenshots/lsl6cd/0166_vi7950.png"
       ],
-      "available": true
+      "available": true,
+      "source": "archive"
     },
     {
       "slug": "eq2",
@@ -5477,7 +5683,8 @@
         "screenshots/eq2/0158_vi7310.png",
         "screenshots/eq2/0159_vi7311.png"
       ],
-      "available": true
+      "available": true,
+      "source": "archive"
     },
     {
       "slug": "pepper",
@@ -5486,7 +5693,8 @@
       "year": 1993,
       "thumb": "assets/thumbs/pepper.png",
       "shots": [],
-      "available": false
+      "available": false,
+      "source": "archive"
     },
     {
       "slug": "pq4",
@@ -5622,7 +5830,8 @@
         "screenshots/pq4/0164_vi1285.png",
         "screenshots/pq4/0165_vi1286.png"
       ],
-      "available": true
+      "available": true,
+      "source": "archive"
     },
     {
       "slug": "qfg4cd",
@@ -5892,7 +6101,8 @@
         "screenshots/qfg4cd/0259_vi3915.png",
         "screenshots/qfg4cd/0260_vi3898.png"
       ],
-      "available": true
+      "available": true,
+      "source": "archive"
     },
     {
       "slug": "sq5",
@@ -6195,7 +6405,8 @@
         "screenshots/sq5/0294_vi8704.png",
         "screenshots/sq5/0295_vi8705.png"
       ],
-      "available": true
+      "available": true,
+      "source": "archive"
     },
     {
       "slug": "sq6",
@@ -6408,7 +6619,8 @@
         "screenshots/sq6/0210_vi9065.png",
         "screenshots/sq6/0211_vi9066.png"
       ],
-      "available": true
+      "available": true,
+      "source": "archive"
     },
     {
       "slug": "lsl7",
@@ -6688,7 +6900,8 @@
         "screenshots/lsl7/0269_vi6230.png",
         "screenshots/lsl7/0270_vi6231.png"
       ],
-      "available": true
+      "available": true,
+      "source": "archive"
     }
   ]
 }

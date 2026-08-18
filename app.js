@@ -9,6 +9,7 @@
   var overlayImage = document.getElementById("overlay-image");
   var overlayTitle = document.getElementById("overlay-title");
   var overlayCount = document.getElementById("overlay-count");
+  var overlaySource = document.getElementById("overlay-source");
   var btnPrev = document.getElementById("btn-prev");
   var btnNext = document.getElementById("btn-next");
   var gridEl = document.getElementById("grid");
@@ -152,6 +153,7 @@
 
     overlayTitle.textContent = game.title;
     overlayCount.textContent = (index + 1) + " / " + game.shots.length;
+    overlaySource.classList.toggle("hidden", game.source !== "contributed");
     overlayImage.alt = game.title + " screenshot " + (index + 1);
     overlayImage.onload = function () {
       applyPixelScale(overlayImage);
@@ -194,6 +196,7 @@
     overlayImage.alt = game.title + " screenshot " + (index + 1);
     overlayTitle.textContent = game.title;
     overlayCount.textContent = (index + 1) + " / " + game.shots.length;
+    overlaySource.classList.toggle("hidden", game.source !== "contributed");
 
     overlayImage.onload = function () {
       applyPixelScale(overlayImage);

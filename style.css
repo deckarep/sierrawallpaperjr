@@ -283,6 +283,15 @@ main {
   color: var(--text-dim);
 }
 
+.overlay-source {
+  display: block;
+  margin-top: 4px;
+  font-size: 0.68rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--accent-dim);
+}
+
 /* ---------- footer ---------- */
 
 .site-footer {
